@@ -1,6 +1,7 @@
 # Pihole-docker
 
-https://github.com/blocklistproject/Lists
+DNS ad blocker for your network
+
 
 ## Intallation
 
@@ -16,6 +17,8 @@ $ cd pihole-docker
 * Update your [adlist.list]
 * [blacklist.txt]
 * [whitelist.txt]
+
+More adlists here: https://github.com/blocklistproject/Lists
 
 
 Run the container

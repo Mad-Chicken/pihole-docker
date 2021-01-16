@@ -17,11 +17,7 @@ services:
       TZ: 'America/Chicago'
       DNS1: 1.1.1.1
       DNS2: 1.0.0.1
-      WEBPASSWORD: 'admin'
-    volumes:
-      - './etc-pihole/:/etc/pihole/'
-      - './etc-dnsmasq.d/:/etc/dnsmasq.d/'
-      - './adlists.list:/etc/pihole/adlists.list'
+      WEBPASSWORD: 'ADMIN-PASSWORD'
     cap_add:
       - NET_ADMIN
     restart: unless-stopped

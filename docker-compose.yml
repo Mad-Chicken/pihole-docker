@@ -17,7 +17,7 @@ services:
       TZ: 'America/Chicago'
       DNS1: 1.1.1.1
       DNS2: 1.0.0.1
-      WEBPASSWORD: 'ADMIN-PASSWORD'
+      WEBPASSWORD: 'password'
     cap_add:
       - NET_ADMIN
     restart: unless-stopped
